@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Video, Radio } from "lucide-react";
 import logo from "@/assets/logo.jpg";
 
 const Header = () => {
@@ -83,9 +83,14 @@ const Header = () => {
           <Button
             variant="gold"
             size="default"
-            onClick={() => scrollToSection("#contact")}
+            className="group relative overflow-hidden"
+            onClick={() => window.open("https://meet.google.com", "_blank")}
           >
-            Get Involved
+            <span className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center justify-center">
+              <Radio className="h-3 w-3 text-red-500 animate-pulse" />
+            </span>
+            <Video className="h-4 w-4 ml-3 mr-2" />
+            Go Live
           </Button>
         </nav>
 
@@ -123,10 +128,14 @@ const Header = () => {
             <Button
               variant="gold"
               size="lg"
-              className="mt-2"
-              onClick={() => scrollToSection("#contact")}
+              className="mt-2 group relative overflow-hidden"
+              onClick={() => window.open("https://meet.google.com", "_blank")}
             >
-              Get Involved
+              <span className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center justify-center">
+                <Radio className="h-3 w-3 text-red-500 animate-pulse" />
+              </span>
+              <Video className="h-4 w-4 ml-3 mr-2" />
+              Go Live
             </Button>
           </div>
         </nav>

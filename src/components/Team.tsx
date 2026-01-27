@@ -5,6 +5,7 @@ import lethuImage from "@/assets/lethu-zama.jpg";
 import sifisoImage from "@/assets/sifiso-zwane.jpg";
 import noxoloImage from "@/assets/noxolo-mkhize.jpg";
 import artyImage from "@/assets/arty-musoke.jpg";
+import phakamaniImage from "@/assets/phakamani-luthuli.jpg";
 
 const team = [
   {
@@ -54,6 +55,14 @@ const team = [
     institution: "University of the Witwatersrand",
     image: artyImage,
     bio: "Arty Musoke holds a degree in Game Design and a Master's qualification in Digital Art from the University of the Witwatersrand, with academic distinctions in Digital Arts. His professional background includes roles as a 3D Game Artist at 3 Degrees Tech and Illustrator for Room to Read, combining creativity, storytelling, and education. Arty has also been involved in the JET Programme, promoting cultural exchange between South Africa and Japan. At Nokuvela Academy, Arty contributes to creative education and cross-cultural learning, bridging technology, art, and global perspectives.",
+  },
+  {
+    name: "Phakamani Luthuli (P Kycee)",
+    role: "Sound Engineer & Music Producer",
+    qualification: "Sound Engineering & Music Production",
+    institution: "Music available on Spotify",
+    image: phakamaniImage,
+    bio: "Phakamani Luthuli, professionally known as P Kycee, is a Sound Engineer and Music Producer with music available on Spotify. His creative work blends technical sound engineering skills with artistic expression, contributing to the growing African music landscape. At Nokuvela Academy, Phakamani represents the creative arts pillar, inspiring young creatives to explore careers in music production, sound design, and digital creativity.",
   },
 ];
 

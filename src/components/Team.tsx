@@ -4,6 +4,7 @@ import sandisoImage from "@/assets/sandiso-magwaza.jpg";
 import lethuImage from "@/assets/lethu-zama.jpg";
 import sifisoImage from "@/assets/sifiso-zwane.jpg";
 import noxoloImage from "@/assets/noxolo-mkhize.jpg";
+import artyImage from "@/assets/arty-musoke.jpg";
 
 const team = [
   {
@@ -47,11 +48,12 @@ const team = [
     bio: "Sifiso Zwane is a qualified Housing Practitioner with over two years of hands-on experience in the real estate sector across both public and private institutions. He completed a 12-month Real Estate Candidacy Internship and holds a PPRA qualification exemption. He specializes in real estate administration, property management support, leasing, compliance, documentation, and client service delivery. Sifiso aspires to make a meaningful impact in property management while continuously expanding his expertise across diverse real estate markets.",
   },
   {
-    name: "Musoke A",
-    role: "Game Designer & Digital Artist",
-    qualification: "Game Design with Digital Art Masters",
-    institution: "Wits University",
-    avatar: "MA",
+    name: "Arty Musoke",
+    role: "Digital Artist | Game Designer | Cultural Exchange Professional",
+    qualification: "Game Design & Digital Art Masters",
+    institution: "University of the Witwatersrand",
+    image: artyImage,
+    bio: "Arty Musoke holds a degree in Game Design and a Master's qualification in Digital Art from the University of the Witwatersrand, with academic distinctions in Digital Arts. His professional background includes roles as a 3D Game Artist at 3 Degrees Tech and Illustrator for Room to Read, combining creativity, storytelling, and education. Arty has also been involved in the JET Programme, promoting cultural exchange between South Africa and Japan. At Nokuvela Academy, Arty contributes to creative education and cross-cultural learning, bridging technology, art, and global perspectives.",
   },
 ];
 

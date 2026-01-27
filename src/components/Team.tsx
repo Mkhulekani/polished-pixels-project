@@ -2,6 +2,7 @@ import { GraduationCap, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import sandisoImage from "@/assets/sandiso-magwaza.jpg";
 import lethuImage from "@/assets/lethu-zama.jpg";
+import sifisoImage from "@/assets/sifiso-zwane.jpg";
 
 const team = [
   {
@@ -36,11 +37,12 @@ const team = [
     avatar: "ZL",
   },
   {
-    name: "Zwane SL",
-    role: "Housing Specialist",
+    name: "Sifiso Zwane",
+    role: "Housing Practitioner | Real Estate Administrator",
     qualification: "Bachelor of Social Sciences in Housing",
     institution: "University of KwaZulu-Natal",
-    avatar: "ZS",
+    image: sifisoImage,
+    bio: "Sifiso Zwane is a qualified Housing Practitioner with over two years of hands-on experience in the real estate sector across both public and private institutions. He completed a 12-month Real Estate Candidacy Internship and holds a PPRA qualification exemption. He specializes in real estate administration, property management support, leasing, compliance, documentation, and client service delivery. Sifiso aspires to make a meaningful impact in property management while continuously expanding his expertise across diverse real estate markets.",
   },
   {
     name: "Musoke A",

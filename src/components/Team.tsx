@@ -1,6 +1,7 @@
 import { GraduationCap, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import sandisoImage from "@/assets/sandiso-magwaza.jpg";
+import lethuImage from "@/assets/lethu-zama.jpg";
 
 const team = [
   {
@@ -20,11 +21,12 @@ const team = [
     avatar: "KB",
   },
   {
-    name: "Luthuli P",
-    role: "Sound Engineer",
-    qualification: "Sound Engineering",
-    institution: "Music Producer",
-    avatar: "LP",
+    name: "Lethu Zama",
+    role: "Business Analyst | B2B Consultant | Tech Journalist",
+    qualification: "Dip ICT Business Analysis & BSocSc Housing",
+    institution: "DUT & University of KwaZulu-Natal",
+    image: lethuImage,
+    bio: "Lethu Zama is a multidisciplinary professional with a Diploma in ICT Business Analysis from the Durban University of Technology and a Bachelor of Social Sciences in Housing from the University of KwaZulu-Natal. He works as a B2B Consultant, Tech Journalist, and Business Analyst, focusing on empowering African SMEs and startups to scale using data-driven sales systems and LinkedIn strategy. Lethu brings valuable insight into digital strategy, research, and business growth, supporting Nokuvela Academy's mission to bridge education, technology, and enterprise development.",
   },
   {
     name: "Zama L",

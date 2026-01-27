@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import sandisoImage from "@/assets/sandiso-magwaza.jpg";
 import lethuImage from "@/assets/lethu-zama.jpg";
 import sifisoImage from "@/assets/sifiso-zwane.jpg";
+import noxoloImage from "@/assets/noxolo-mkhize.jpg";
 
 const team = [
   {
@@ -30,11 +31,12 @@ const team = [
     bio: "Lethu Zama is a multidisciplinary professional with a Diploma in ICT Business Analysis from the Durban University of Technology and a Bachelor of Social Sciences in Housing from the University of KwaZulu-Natal. He works as a B2B Consultant, Tech Journalist, and Business Analyst, focusing on empowering African SMEs and startups to scale using data-driven sales systems and LinkedIn strategy. Lethu brings valuable insight into digital strategy, research, and business growth, supporting Nokuvela Academy's mission to bridge education, technology, and enterprise development.",
   },
   {
-    name: "Zama L",
-    role: "Geologist",
-    qualification: "BSc Geological Science",
-    institution: "Wits University",
-    avatar: "ZL",
+    name: "Noxolo Mkhize",
+    role: "Educator",
+    qualification: "BA & PGCE (IsiZulu & History)",
+    institution: "University of Zululand",
+    image: noxoloImage,
+    bio: "Noxolo Mkhize is a qualified educator with a Bachelor of Arts and Postgraduate Certificate in Education (PGCE) from the University of Zululand, specializing in IsiZulu and History. She has experience teaching across primary, secondary, and early childhood levels, including IsiZulu, History, Life Orientation, and Dramatic Arts. Currently, Noxolo serves as an Early Childhood Development Teacher at KwaNokvela Academy, where she is passionate about nurturing young learners and supporting holistic development within the KwaMusi community.",
   },
   {
     name: "Sifiso Zwane",

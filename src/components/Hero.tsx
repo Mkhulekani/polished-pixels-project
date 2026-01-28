@@ -22,8 +22,8 @@ const Hero = () => {
           alt="Nokuvela Academy Campus"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-hero opacity-90" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-secondary/40" />
+        <div className="absolute inset-0 bg-gradient-hero opacity-70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-secondary/30" />
       </div>
 
       {/* Content */}

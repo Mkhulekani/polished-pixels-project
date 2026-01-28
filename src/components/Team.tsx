@@ -77,33 +77,33 @@ const Team = () => {
   };
 
   return (
-    <section id="team" className="py-24 bg-gradient-warm">
-      <div className="container mx-auto px-4">
+    <section id="team" className="py-16 sm:py-20 md:py-24 bg-gradient-warm">
+      <div className="container mx-auto px-4 sm:px-6">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-16">
+          <span className="text-primary font-semibold uppercase tracking-wider text-xs sm:text-sm">
             Our Team
           </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-3 mb-6">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mt-2 sm:mt-3 mb-4 sm:mb-6 px-2">
             Expert Facilitators
           </h2>
-          <p className="font-body text-lg text-muted-foreground">
+          <p className="font-body text-base sm:text-lg text-muted-foreground px-2">
             Our dedicated facilitators bring professional expertise and passion for education, 
             volunteering their time for community development.
           </p>
         </div>
 
         {/* Team Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 max-w-6xl mx-auto">
           {team.map((member, index) => (
             <div
               key={index}
-              className={`group bg-card rounded-2xl p-6 shadow-card hover:shadow-elevated transition-all duration-300 hover:-translate-y-2 text-center ${
+              className={`group bg-card rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 shadow-card hover:shadow-elevated transition-all duration-300 hover:-translate-y-2 text-center ${
                 member.isFounder ? "sm:col-span-2 lg:col-span-3 lg:max-w-2xl lg:mx-auto" : ""
               }`}
             >
               {/* Avatar/Image */}
-              <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 group-hover:scale-105 transition-transform ring-4 ring-primary/20">
+              <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden mx-auto mb-4 sm:mb-6 group-hover:scale-105 transition-transform ring-2 sm:ring-4 ring-primary/20">
                 <img
                   src={member.image}
                   alt={member.name}
@@ -112,27 +112,27 @@ const Team = () => {
               </div>
 
               {/* Info */}
-              <h3 className="font-display text-xl font-bold text-foreground mb-1">
+              <h3 className="font-display text-lg sm:text-xl font-bold text-foreground mb-1">
                 {member.name}
               </h3>
               {member.role && (
-                <p className="font-body text-sm font-semibold text-primary mb-2">
+                <p className="font-body text-xs sm:text-sm font-semibold text-primary mb-2 px-2">
                   {member.role}
                 </p>
               )}
-              <div className="flex items-center justify-center gap-2 text-muted-foreground mb-2">
-                <GraduationCap className="h-4 w-4" />
-                <span className="font-body text-sm font-medium">
+              <div className="flex items-center justify-center gap-1.5 sm:gap-2 text-muted-foreground mb-2">
+                <GraduationCap className="h-3 w-3 sm:h-4 sm:w-4 shrink-0" />
+                <span className="font-body text-xs sm:text-sm font-medium">
                   {member.qualification}
                 </span>
               </div>
-              <p className="font-body text-sm text-muted-foreground mb-4">
+              <p className="font-body text-xs sm:text-sm text-muted-foreground mb-3 sm:mb-4">
                 {member.institution}
               </p>
               
               {/* Bio for founder */}
               {member.bio && (
-                <p className="font-body text-sm text-muted-foreground mb-6 max-w-xl mx-auto leading-relaxed">
+                <p className="font-body text-xs sm:text-sm text-muted-foreground mb-4 sm:mb-6 max-w-xl mx-auto leading-relaxed px-1">
                   {member.bio}
                 </p>
               )}
@@ -143,8 +143,9 @@ const Team = () => {
                   variant="outline"
                   size="sm"
                   onClick={() => handleContactClick(member.name)}
+                  className="text-xs sm:text-sm"
                 >
-                  <Mail className="h-4 w-4" />
+                  <Mail className="h-3 w-3 sm:h-4 sm:w-4" />
                   Contact
                 </Button>
               </div>

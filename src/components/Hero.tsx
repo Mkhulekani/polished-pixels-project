@@ -27,34 +27,34 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 pt-24 pb-16">
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 pb-12 sm:pb-16">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm rounded-full px-4 py-2 mb-8 animate-fade-in">
-            <BookOpen className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-primary-foreground/90">
+          <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-6 sm:mb-8 animate-fade-in">
+            <BookOpen className="h-3 w-3 sm:h-4 sm:w-4 text-primary" />
+            <span className="text-xs sm:text-sm font-medium text-primary-foreground/90">
               Empowering Through Education
             </span>
           </div>
 
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up">
+          <h1 className="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-4 sm:mb-6 animate-fade-in-up px-2">
             Nokuvela Academy
           </h1>
 
-          <p className="font-display text-xl md:text-2xl italic text-primary/80 mb-8 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+          <p className="font-display text-lg sm:text-xl md:text-2xl italic text-primary/80 mb-6 sm:mb-8 animate-fade-in-up px-4" style={{ animationDelay: "0.1s" }}>
             "Indlela Ibuzwa Kwabaphambili"
           </p>
 
-          <p className="font-body text-lg md:text-xl text-primary-foreground/85 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <p className="font-body text-base sm:text-lg md:text-xl text-primary-foreground/85 max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed animate-fade-in-up px-4" style={{ animationDelay: "0.2s" }}>
             A community education centre supporting schools in Zululand by providing 
             access to tutelage, mentorship, and skills training for self-sufficient futures.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             <Button
               variant="gold"
               size="xl"
               onClick={() => scrollToSection("#services")}
-              className="group"
+              className="group w-full sm:w-auto"
             >
               Explore Programs
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
@@ -63,6 +63,7 @@ const Hero = () => {
               variant="heroOutline"
               size="xl"
               onClick={() => scrollToSection("#contact")}
+              className="w-full sm:w-auto"
             >
               <Users className="h-5 w-5" />
               Join Our Community
@@ -70,18 +71,18 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-12 border-t border-primary-foreground/10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 sm:mt-16 pt-8 sm:pt-12 border-t border-primary-foreground/10 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <div className="text-center">
-              <p className="font-display text-3xl md:text-4xl font-bold text-primary">15+</p>
-              <p className="font-body text-sm text-primary-foreground/70 mt-1">Programs Offered</p>
+              <p className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-primary">15+</p>
+              <p className="font-body text-xs sm:text-sm text-primary-foreground/70 mt-1">Programs</p>
             </div>
             <div className="text-center">
-              <p className="font-display text-3xl md:text-4xl font-bold text-primary">6</p>
-              <p className="font-body text-sm text-primary-foreground/70 mt-1">Expert Facilitators</p>
+              <p className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-primary">7</p>
+              <p className="font-body text-xs sm:text-sm text-primary-foreground/70 mt-1">Facilitators</p>
             </div>
             <div className="text-center">
-              <p className="font-display text-3xl md:text-4xl font-bold text-primary">Free</p>
-              <p className="font-body text-sm text-primary-foreground/70 mt-1">Education For All</p>
+              <p className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-primary">Free</p>
+              <p className="font-body text-xs sm:text-sm text-primary-foreground/70 mt-1">Education</p>
             </div>
           </div>
         </div>

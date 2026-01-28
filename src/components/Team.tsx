@@ -6,6 +6,7 @@ import sifisoImage from "@/assets/sifiso-zwane.jpg";
 import noxoloImage from "@/assets/noxolo-mkhize.jpg";
 import artyImage from "@/assets/arty-musoke.jpg";
 import phakamaniImage from "@/assets/phakamani-luthuli.jpg";
+import bhekisaniImage from "@/assets/bhekisani-khumalo.jpg";
 
 const team = [
   {
@@ -18,11 +19,12 @@ const team = [
     isFounder: true,
   },
   {
-    name: "Khumalo BS",
-    role: "Business Analyst",
-    qualification: "Dip ICT Business Analysis",
+    name: "Bhekisani Khumalo",
+    role: "Information Technology Business Systems Analyst",
+    qualification: "Diploma in ICT in Business Analysis",
     institution: "Durban University of Technology",
-    avatar: "KB",
+    image: bhekisaniImage,
+    bio: "Bhekisani Khumalo is an Information Technology Business Systems Analyst at Muntfukazi Group of Companies. He holds a Diploma in ICT in Business Analysis from the Durban University of Technology. With a strong interest in aligning technology solutions with business needs, Bhekisani brings analytical thinking and systems-driven problem-solving to his work. His contribution to Nokuvela Academy supports the development of efficient, scalable digital and operational systems that enable sustainable growth.",
   },
   {
     name: "Lethu Zama",
@@ -101,21 +103,13 @@ const Team = () => {
               }`}
             >
               {/* Avatar/Image */}
-              {member.image ? (
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 group-hover:scale-105 transition-transform ring-4 ring-primary/20">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-              ) : (
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-6 group-hover:scale-105 transition-transform">
-                  <span className="font-display text-2xl font-bold text-primary-foreground">
-                    {member.avatar}
-                  </span>
-                </div>
-              )}
+              <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 group-hover:scale-105 transition-transform ring-4 ring-primary/20">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
 
               {/* Info */}
               <h3 className="font-display text-xl font-bold text-foreground mb-1">

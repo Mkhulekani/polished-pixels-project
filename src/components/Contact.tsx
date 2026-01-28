@@ -70,68 +70,68 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="py-16 sm:py-20 md:py-24 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 md:mb-16">
+          <span className="text-primary font-semibold uppercase tracking-wider text-xs sm:text-sm">
             Get In Touch
           </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-3 mb-6">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mt-2 sm:mt-3 mb-4 sm:mb-6 px-2">
             Contact Us
           </h2>
-          <p className="font-body text-lg text-muted-foreground">
+          <p className="font-body text-base sm:text-lg text-muted-foreground px-2">
             Ready to join our community? Have questions about our programs? 
             We'd love to hear from you.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 max-w-6xl mx-auto">
           {/* Contact Info */}
           <div>
-            <h3 className="font-display text-2xl font-bold text-foreground mb-8">
+            <h3 className="font-display text-xl sm:text-2xl font-bold text-foreground mb-6 sm:mb-8">
               Contact Information
             </h3>
 
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               <button
                 onClick={handlePhoneClick}
-                className="flex items-start gap-4 p-4 rounded-xl bg-card hover:bg-muted transition-colors w-full text-left group"
+                className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg sm:rounded-xl bg-card hover:bg-muted transition-colors w-full text-left group"
               >
-                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
-                  <Phone className="h-6 w-6 text-primary" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
+                  <Phone className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground mb-1">Phone</p>
-                  <p className="text-muted-foreground">067 903 0771</p>
+                  <p className="font-semibold text-sm sm:text-base text-foreground mb-0.5 sm:mb-1">Phone</p>
+                  <p className="text-sm sm:text-base text-muted-foreground">067 903 0771</p>
                   <p className="text-xs text-primary mt-1">Click to call</p>
                 </div>
               </button>
 
               <button
                 onClick={handleEmailClick}
-                className="flex items-start gap-4 p-4 rounded-xl bg-card hover:bg-muted transition-colors w-full text-left group"
+                className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg sm:rounded-xl bg-card hover:bg-muted transition-colors w-full text-left group"
               >
-                <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center shrink-0 group-hover:bg-secondary/20 transition-colors">
-                  <Mail className="h-6 w-6 text-secondary" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-secondary/10 flex items-center justify-center shrink-0 group-hover:bg-secondary/20 transition-colors">
+                  <Mail className="h-5 w-5 sm:h-6 sm:w-6 text-secondary" />
                 </div>
-                <div>
-                  <p className="font-semibold text-foreground mb-1">Email</p>
-                  <p className="text-muted-foreground">nokuvelacademy@gmail.com</p>
+                <div className="min-w-0">
+                  <p className="font-semibold text-sm sm:text-base text-foreground mb-0.5 sm:mb-1">Email</p>
+                  <p className="text-sm sm:text-base text-muted-foreground break-all">nokuvelacademy@gmail.com</p>
                   <p className="text-xs text-secondary mt-1">Click to email</p>
                 </div>
               </button>
 
               <button
                 onClick={handleMapClick}
-                className="flex items-start gap-4 p-4 rounded-xl bg-card hover:bg-muted transition-colors w-full text-left group"
+                className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg sm:rounded-xl bg-card hover:bg-muted transition-colors w-full text-left group"
               >
-                <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center shrink-0 group-hover:bg-accent/20 transition-colors">
-                  <MapPin className="h-6 w-6 text-accent" />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-accent/10 flex items-center justify-center shrink-0 group-hover:bg-accent/20 transition-colors">
+                  <MapPin className="h-5 w-5 sm:h-6 sm:w-6 text-accent" />
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground mb-1">Location</p>
-                  <p className="text-muted-foreground">
+                  <p className="font-semibold text-sm sm:text-base text-foreground mb-0.5 sm:mb-1">Location</p>
+                  <p className="text-sm sm:text-base text-muted-foreground">
                     KwaMusi Area, Nokuvela Site<br />
                     Along R66, Nongoma, Zululand
                   </p>
@@ -141,13 +141,13 @@ const Contact = () => {
                 </div>
               </button>
 
-              <div className="flex items-start gap-4 p-4 rounded-xl bg-card">
-                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-                  <Clock className="h-6 w-6 text-primary" />
+              <div className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 rounded-lg sm:rounded-xl bg-card">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+                  <Clock className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground mb-1">Hours</p>
-                  <p className="text-muted-foreground">
+                  <p className="font-semibold text-sm sm:text-base text-foreground mb-0.5 sm:mb-1">Hours</p>
+                  <p className="text-sm sm:text-base text-muted-foreground">
                     Monday - Friday: 8:00 AM - 5:00 PM<br />
                     Saturday: 9:00 AM - 1:00 PM
                   </p>
@@ -156,26 +156,26 @@ const Contact = () => {
             </div>
 
             {/* Registration Info */}
-            <div className="mt-8 p-6 rounded-xl bg-secondary/10 border border-secondary/20">
-              <p className="font-body text-sm text-foreground">
+            <div className="mt-6 sm:mt-8 p-4 sm:p-6 rounded-lg sm:rounded-xl bg-secondary/10 border border-secondary/20">
+              <p className="font-body text-xs sm:text-sm text-foreground">
                 <span className="font-semibold">Registration No:</span> 2025/109083/08
               </p>
-              <p className="font-body text-xs text-muted-foreground mt-2">
+              <p className="font-body text-xs text-muted-foreground mt-1.5 sm:mt-2">
                 Registered Non-Profit Company (NPC)
               </p>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-card rounded-2xl p-8 shadow-card">
-            <h3 className="font-display text-2xl font-bold text-foreground mb-6">
+          <div className="bg-card rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-card">
+            <h3 className="font-display text-xl sm:text-2xl font-bold text-foreground mb-4 sm:mb-6">
               Send Us a Message
             </h3>
 
-            <form onSubmit={handleSubmit} className="space-y-5">
-              <div className="grid sm:grid-cols-2 gap-5">
+            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
+              <div className="grid sm:grid-cols-2 gap-4 sm:gap-5">
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
+                  <label className="block text-xs sm:text-sm font-medium text-foreground mb-1.5 sm:mb-2">
                     Your Name *
                   </label>
                   <Input
@@ -184,11 +184,11 @@ const Contact = () => {
                     onChange={handleInputChange}
                     placeholder="Enter your name"
                     required
-                    className="bg-background"
+                    className="bg-background text-sm sm:text-base"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
+                  <label className="block text-xs sm:text-sm font-medium text-foreground mb-1.5 sm:mb-2">
                     Email Address *
                   </label>
                   <Input
@@ -198,14 +198,14 @@ const Contact = () => {
                     onChange={handleInputChange}
                     placeholder="you@example.com"
                     required
-                    className="bg-background"
+                    className="bg-background text-sm sm:text-base"
                   />
                 </div>
               </div>
 
-              <div className="grid sm:grid-cols-2 gap-5">
+              <div className="grid sm:grid-cols-2 gap-4 sm:gap-5">
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
+                  <label className="block text-xs sm:text-sm font-medium text-foreground mb-1.5 sm:mb-2">
                     Phone Number
                   </label>
                   <Input
@@ -214,11 +214,11 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleInputChange}
                     placeholder="Your phone number"
-                    className="bg-background"
+                    className="bg-background text-sm sm:text-base"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
+                  <label className="block text-xs sm:text-sm font-medium text-foreground mb-1.5 sm:mb-2">
                     Subject *
                   </label>
                   <Input
@@ -227,13 +227,13 @@ const Contact = () => {
                     onChange={handleInputChange}
                     placeholder="What's this about?"
                     required
-                    className="bg-background"
+                    className="bg-background text-sm sm:text-base"
                   />
                 </div>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
+                <label className="block text-xs sm:text-sm font-medium text-foreground mb-1.5 sm:mb-2">
                   Message *
                 </label>
                 <Textarea
@@ -241,9 +241,9 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="Tell us how we can help..."
-                  rows={5}
+                  rows={4}
                   required
-                  className="bg-background resize-none"
+                  className="bg-background resize-none text-sm sm:text-base"
                 />
               </div>
 
@@ -251,14 +251,14 @@ const Contact = () => {
                 type="submit"
                 variant="gold"
                 size="lg"
-                className="w-full"
+                className="w-full text-sm sm:text-base"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (
                   "Sending..."
                 ) : (
                   <>
-                    <Send className="h-5 w-5" />
+                    <Send className="h-4 w-4 sm:h-5 sm:w-5" />
                     Send Message
                   </>
                 )}

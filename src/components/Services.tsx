@@ -10,6 +10,9 @@ import {
   Trophy,
   Heart
 } from "lucide-react";
+import classroom1 from "@/assets/classroom-1.jpg";
+import classroom2 from "@/assets/classroom-2.jpg";
+import studyArea from "@/assets/study-area.jpg";
 
 const services = [
   {
@@ -155,6 +158,62 @@ const Services = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* Our Learning Facilities */}
+        <div className="mt-20">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+              Our Facilities
+            </span>
+            <h3 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">
+              Where Learning Happens
+            </h3>
+            <p className="font-body text-lg text-muted-foreground">
+              Our dedicated classrooms and study areas provide a focused environment for learners to grow and succeed.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="group relative overflow-hidden rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300">
+              <img 
+                src={classroom1} 
+                alt="Classroom with desks and chalkboard" 
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h4 className="font-display text-xl font-semibold text-white mb-1">Classroom A</h4>
+                <p className="font-body text-sm text-white/80">Mathematics & Sciences</p>
+              </div>
+            </div>
+            
+            <div className="group relative overflow-hidden rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300">
+              <img 
+                src={classroom2} 
+                alt="Classroom view from entrance" 
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h4 className="font-display text-xl font-semibold text-white mb-1">Classroom B</h4>
+                <p className="font-body text-sm text-white/80">Languages & Career Guidance</p>
+              </div>
+            </div>
+            
+            <div className="group relative overflow-hidden rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300">
+              <img 
+                src={studyArea} 
+                alt="Study area with tables and chairs" 
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <h4 className="font-display text-xl font-semibold text-white mb-1">Study Area</h4>
+                <p className="font-body text-sm text-white/80">Self-Study & Group Work</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Revenue Services */}

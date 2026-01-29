@@ -30,10 +30,10 @@ const team = [
   {
     name: "Lethu Zama",
     role: "Business Analyst | B2B Consultant | Tech Journalist",
-    qualification: "Dip ICT Business Analysis & BSocSc Housing",
-    institution: "DUT & University of KwaZulu-Natal",
+    qualification: "Bachelor of Science in Geological Sciences & Data Analysis Certificate",
+    institution: "University of the Witwatersrand & Explore AI Academy",
     image: lethuImage,
-    bio: "Lethu Zama is a multidisciplinary professional with a Diploma in ICT Business Analysis from the Durban University of Technology and a Bachelor of Social Sciences in Housing from the University of KwaZulu-Natal. He works as a B2B Consultant, Tech Journalist, and Business Analyst, focusing on empowering African SMEs and startups to scale using data-driven sales systems and LinkedIn strategy. Lethu brings valuable insight into digital strategy, research, and business growth, supporting Nokuvela Academy's mission to bridge education, technology, and enterprise development.",
+    bio: "Lethu Zama is a multidisciplinary professional holding a Bachelor of Science in Geological Sciences from the University of the Witwatersrand and a Data Analysis Certificate from Explore AI Academy. He works as a B2B Consultant, Tech Journalist, and Business Analyst, with a strong focus on empowering African SMEs and startups to scale through data-driven sales systems and LinkedIn strategy. Lethu brings valuable insight into digital strategy, research, and business growth, supporting Nokuvela Academy's mission to bridge education, technology, and enterprise development.",
   },
   {
     name: "Noxolo Mkhize",

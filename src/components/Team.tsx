@@ -7,6 +7,7 @@ import noxoloImage from "@/assets/noxolo-mkhize.jpg";
 import artyImage from "@/assets/arty-musoke.jpg";
 import phakamaniImage from "@/assets/phakamani-luthuli.jpg";
 import bhekisaniImage from "@/assets/bhekisani-khumalo.jpg";
+import fezekaImage from "@/assets/fezeka-hlophe.jpg";
 
 const team = [
   {
@@ -65,6 +66,14 @@ const team = [
     institution: "Music available on Spotify",
     image: phakamaniImage,
     bio: "Phakamani Luthuli, professionally known as P Kycee, is a Sound Engineer and Music Producer with music available on Spotify. His creative work blends technical sound engineering skills with artistic expression, contributing to the growing African music landscape. At Nokuvela Academy, Phakamani represents the creative arts pillar, inspiring young creatives to explore careers in music production, sound design, and digital creativity.",
+  },
+  {
+    name: "Fezeka Hlophe",
+    role: "Application Developer | Information Technology Enabler",
+    qualification: "Diploma in ICT in Application Development",
+    institution: "Durban University of Technology",
+    image: fezekaImage,
+    bio: "Fezeka Hlophe holds a Diploma in ICT in Application Development from the Durban University of Technology. She works as an Information Technology Enabler at Edunova SA, where she is actively involved in advancing digital transformation in African schools and communities. With a strong foundation in application development and a passion for technology-driven social impact, Fezeka contributes to initiatives that improve digital access, skills development, and innovation within the education sector. As a member of the Nokuvela team, she supports the organisation's mission to bridge technology, education, and community development.",
   },
 ];
 

@@ -40,7 +40,7 @@ const Hero = () => {
             Nokuvela Academy
           </h1>
 
-          <p className="font-display text-lg sm:text-xl md:text-2xl italic text-primary/80 mb-6 sm:mb-8 animate-fade-in-up px-4" style={{ animationDelay: "0.1s" }}>
+          <p className="font-display text-lg sm:text-xl md:text-2xl italic text-primary-foreground mb-6 sm:mb-8 animate-fade-in-up px-4" style={{ animationDelay: "0.1s" }}>
             "Indlela Ibuzwa Kwabaphambili"
           </p>
 

@@ -13,6 +13,9 @@ import {
 import classroom1 from "@/assets/classroom-1.jpg";
 import classroom2 from "@/assets/classroom-2.jpg";
 import studyArea from "@/assets/study-area.jpg";
+import extraClass from "@/assets/extra-class.jpg";
+import induction from "@/assets/induction.jpg";
+import earlyChild from "@/assets/early-child.jpg";
 
 const services = [
   {
@@ -201,7 +204,7 @@ const Services = () => {
               </div>
             </div>
             
-            <div className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300 sm:col-span-2 md:col-span-1">
+            <div className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300">
               <img 
                 src={studyArea} 
                 alt="Study area with tables and chairs" 
@@ -211,6 +214,45 @@ const Services = () => {
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
                 <h4 className="font-display text-lg sm:text-xl font-semibold text-white mb-1">Study Area</h4>
                 <p className="font-body text-xs sm:text-sm text-white/80">Self-Study & Group Work</p>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300">
+              <img 
+                src={extraClass} 
+                alt="Extra classes in session" 
+                className="w-full h-48 sm:h-56 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+                <h4 className="font-display text-lg sm:text-xl font-semibold text-white mb-1">Extra Classes</h4>
+                <p className="font-body text-xs sm:text-sm text-white/80">Grade 10-12 Support</p>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300">
+              <img 
+                src={induction} 
+                alt="Induction session" 
+                className="w-full h-48 sm:h-56 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+                <h4 className="font-display text-lg sm:text-xl font-semibold text-white mb-1">Induction Sessions</h4>
+                <p className="font-body text-xs sm:text-sm text-white/80">Community Training</p>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-xl sm:rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300">
+              <img 
+                src={earlyChild} 
+                alt="Early childhood development class" 
+                className="w-full h-48 sm:h-56 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
+                <h4 className="font-display text-lg sm:text-xl font-semibold text-white mb-1">Early Childhood</h4>
+                <p className="font-body text-xs sm:text-sm text-white/80">Foundation Learning</p>
               </div>
             </div>
           </div>

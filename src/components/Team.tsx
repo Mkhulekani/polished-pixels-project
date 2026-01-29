@@ -20,7 +20,7 @@ const team = [
   },
   {
     name: "Bhekisani Khumalo",
-    role: "Information Technology Business Systems Analyst",
+    role: "Co-Founder & COO | Information Technology Business Systems Analyst",
     qualification: "Diploma in ICT in Business Analysis",
     institution: "Durban University of Technology",
     image: bhekisaniImage,
